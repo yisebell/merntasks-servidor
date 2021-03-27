@@ -8,7 +8,7 @@ const conectarBD = async () => {
             useUnifiedTopology: true,
             useFindAndModify: false
         });
-        console.log('Base de datos conectada');
+        console.log('Base de datos conectada con exito.');
     } catch (error) {
         console.log(error);
         process.exit(1); // detener la app
